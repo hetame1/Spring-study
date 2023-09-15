@@ -14,7 +14,6 @@ spring:
     password: hetame8946
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    open-in-view: false
     defer-datasource-initialization: true
     hibernate.ddl-auto: create
     show-sql: true
@@ -22,9 +21,6 @@ spring:
       hibernate.format_sql: true
       hibernate.default_batch_fetch_size: 100
   sql.init.mode: always
-  data.rest:
-    base-path: /api
-    detection-strategy: annotated
 
 ---
 
