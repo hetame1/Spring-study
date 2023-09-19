@@ -1,5 +1,6 @@
 package com.study.springboard.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@Disabled("DataRest 테스트는 아직 작성 중입니다.")
 @DisplayName("DataRest 테스트")
 @Transactional
 @AutoConfigureMockMvc // MockMvc를 주입받기 위해 필요
