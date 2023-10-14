@@ -9,9 +9,9 @@ logging:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/board
+    url: jdbc:mysql://localhost:3306/spring_study_board
     username: hetame
-    password: hetame8946
+    password: hetame
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     defer-datasource-initialization: true
