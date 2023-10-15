@@ -23,11 +23,5 @@ spring:
   sql.init.mode: always
   data.rest:
     base-path: /api
-    detection-strategy: annotated 
-
----
-
-#
-#spring:
-#  config.activate.on-profile: test
-#  datasource.url: jdbc:h2:mem:testdb
+    detection-strategy: annotated
+  thymeleaf3.decoupled-logic: true
